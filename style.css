@@ -3,11 +3,13 @@ body {
     background-image: url(swimmingImage.png);
 }
 
+
 .custom-selector {
     position: relative;
     display: inline-block;
     font-size: 110%;
     color: #0d0d0d; 
+    width: 800px;
   }
   
   .custom-selector select {
