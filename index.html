@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="script.js"></script>
+        <title>
+          Swimming Recruitment Calculator
+        </title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div>
+        <h1>
+            ZP & KJ Swimming Recruitment Calculator
+        </h1>
+        <p>Description: Suggests Colleges Looking For Recruits With Times Similar To You</p>
+        <h3>Select an event:</h3>
+      <label class="custom-selector">
+        <select name="events" id="events" style="width: 800px;">
+        <optgroup label="Freestyle">
+          <option value="50 Free">50 Freestyle</option>
+          <option value="100 Free">100 Freestyle</option>
+          <option value="200 Free">200 Freestyle</option>
+          <option value="500 Free">500 Freestyle</option>
+          <option value="1000 Free">1000 Freestyle</option>
+          <option value="1650 Free">1650 Freestyle</option>
+        </optgroup>
+        <optgroup label="Backstroke">
+          <option value="100 Back">100 Backstroke</option>
+          <option value="200 Back">200 Backstroke</option>
+        </optgroup>
+        <optgroup label="Breastroke">
+          <option value="100 Breast">100 Breastroke</option>
+          <option value="200 Breast">200 Breastroke</option>
+        </optgroup>
+        <optgroup label="Butterfly">
+          <option value="100 Fly">100 Butterfly</option>
+          <option value="200 Fly">200 Butterfly</option>
+        </optgroup>
+        <optgroup label="IM">
+            <option value="200 IM">200 IM</option>
+            <option value="400 IM">400 IM</option>
+          </optgroup>
+        </select> 
+        <br><br>
+
+
+        <h4>Select Your Gender:</h4>
+        <select class="custom-selector" id="gender" style="width: 800px;">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+        <br><br>
+        <input placeholder="Enter Time Here" id="time"><br><br><br>
+
+        <button onclick="findColleges()">Submit</button>
+
+        <h3 id="colleges"></h3>
+      </div>
+    </body>
+</html>
