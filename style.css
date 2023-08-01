@@ -1,15 +1,8 @@
-body {
-    text-align: center;
-    background-image: url(swimmingImage.png);
-}
-
-
 .custom-selector {
     position: relative;
     display: inline-block;
     font-size: 110%;
     color: #0d0d0d; 
-    width: 800px;
   }
   
   .custom-selector select {
@@ -40,8 +33,6 @@ body {
   div {
     background-color: rgb(177, 234, 252);
     border-radius: 100px;
-    margin-left: 500px;
-    width: 50%;
   }
 
   h1 {
@@ -83,3 +74,13 @@ body {
   p {
     font-weight: bolder;
   }
+
+
+  body {
+    text-align: center;
+    background-image: url(swimmingImage.png);
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
